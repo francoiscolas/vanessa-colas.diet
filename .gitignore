@@ -1,0 +1,6 @@
+/.sass-cache/
+/.vagrant/
+/config/devmode
+/public/stylesheets/app.css
+/public/app.css*
+/public/app.js*

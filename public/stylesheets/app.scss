@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+html, body,
+.mdl-card__supporting-text {
+  color: #000;
+  font-family: "Helvetica","Arial",sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+}
+.vd-wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+  width: 100%;
+}
+header {
+  .vd-title {
+    height: auto;
+    padding: 0 40px;
+    h1 {
+      font-family: 'Gloria Hallelujah', cursive !important;
+      font-size: 36px;
+      width: 100%;
+    }
+  }
+  .vd-nav .mdl-navigation__link {
+    border-bottom: 4px solid transparent;
+    font-weight: bold;
+    text-transform: uppercase;
+    &:hover {
+      border-color: #fff;
+    }
+  }
+}
+main {
+  background: url('/images/background.jpg') center / cover;
+  section {
+    max-width: 1024px;
+    &.presentation {
+      .photo {
+        background: url('/images/photo.jpg') center / cover;
+        min-height: 200px;
+      }
+    }
+    &.pourquoi {
+      .bird-cell {
+        background: url('/images/bird.jpg') center / cover;
+      }
+      ul {
+        margin-top: -16px;
+      }
+    }
+    &.contact {
+      .mdl-textfield {
+        display: block;
+      }
+      .mdl-textfield__input {
+        background-color: #eaeaea;
+        border-color: #616161;
+      }
+      .mdl-textfield__label {
+        color: #616161;
+      }
+      .bread-cell {
+        background: url('/images/bread.jpg') center / cover;
+      }
+    }
+    &.localisation .mdl-card__title {
+      background: url('/images/map-marker.png') no-repeat center;
+    }
+  }
+}
+footer {
+  text-align: center;
+}
+.is-small-screen {
+  header {
+    .vd-title {
+      padding: 0 10px !important;
+      h1 {
+        font-size: 40px;
+        margin: 0 !important;
+        text-align: center;
+      }
+    }
+    .vd-nav {
+      display: none;
+    }
+  }
+}

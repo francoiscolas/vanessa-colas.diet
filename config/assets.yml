@@ -1,0 +1,11 @@
+package_path: .
+
+javascripts:
+  app:
+    - public/javascripts/material-design-lite-1.0.6.js
+    - public/javascripts/app.js
+stylesheets:
+  app:
+    - public/stylesheets/material-design-lite-1.0.6.css
+    - public/stylesheets/fonts.css
+    - public/stylesheets/app.css
