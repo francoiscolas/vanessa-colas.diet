@@ -19,7 +19,7 @@ function assets($key) {
   <head>
     <meta charset="utf-8"> 
     <meta name="viewport" content="width=device-width; initial-scale=1.0; user-scalable=no">
-    <title>Vanessa Colas - Diététicienne</title>
+    <title>Vanessa Colas - Diététicienne à Angers</title>
     <?php
     if (DEVMODE) {
       foreach (assets('stylesheets') as $name => $files) {
@@ -48,7 +48,7 @@ function assets($key) {
             <div class="vd-title mdl-layout__header-row">
               <h1>
                 <b>Vanessa Colas</b><br>
-                Diététicienne-Nutritionniste D.E à Cantenay-Épinard
+                Diététicienne-Nutritionniste D.E à Angers
               </h1>
             </div>
             <div class="vd-nav mdl-layout__header-row">
@@ -66,14 +66,16 @@ function assets($key) {
         <section class="presentation mdl-grid">
           <div class="mdl-cell mdl-cell--12-col">
             <div class="mdl-grid mdl-grid--no-spacing">
-              <div class="photo mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone"></div>
+              <div class="photo mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone">
+                <img src="/images/photo.jpg"/>
+              </div>
               <div class="mdl-card mdl-cell mdl-cell--6-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
                 <div class="mdl-card__title">
                   <h2 class="mdl-card__title-text">Présentation</h2>
                 </div>
                 <div class="mdl-card__supporting-text">
                   Je suis diététicienne diplômée depuis 2013. Je vous accueille dans mon cabinet
-                  à la maison médicale de Cantenay-Épinard.<br>
+                  à la maison médicale Saint Jacques.<br>
                   <br>
                   Dôtée de plusieurs expériences professionnelles, j'ai exercé en milieu
                   hospitalier au CHU d'Angers dans différents services. J'ai essentiellement
@@ -86,20 +88,19 @@ function assets($key) {
                   et vous apporte bien être.
                 </div>
                 <div class="mdl-card__actions">
-                  <a href="#contact" class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent mdl-js-ripple-effect">Prendre rendez-vous!</a>
+                  <a href="#contact" class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent mdl-js-ripple-effect">Prendre rendez-vous !</a>
                 </div>
               </div>
               <div class="mdl-card mdl-color--green mdl-cell mdl-cell--3-col-desktop mdl-cell--hide-tablet mdl-cell--hide-phone">
                 <div class="mdl-card__supporting-text">
-                  <p class="mdl-typography--font-light">
-                    <i class="material-icons">&#xE0CD;</i> 07 56 84 35 55
+                  <p class="mdl-typography--font-light contact">
+                    <i class="material-icons">&#xE0CD;</i> <a href="tel://+33756843555">07 82 02 75 40</a>
                   </p>
-                  <p class="mdl-typography--font-light">
-                    <i class="material-icons">&#xE0BE;</i> contact@vanessa-colas.diet
+                  <p class="mdl-typography--font-light contact">
+                    <i class="material-icons">&#xE0BE;</i> <a href="mailto:contact@vanessa-colas.diet">contact@vanessa-colas.diet</a>
                   </p>
-                  <p class="mdl-typography--font-light">
-                    <i class="material-icons">&#xE0C8;</i> Esplanade Jean Moulin<br>
-                    <i class="material-icons" style="visibility:hidden;">&#xE0C8;</i> 49460 Montreuil-Juigné
+                  <p class="mdl-typography--font-light contact localisation">
+                    <i class="material-icons">&#xE0C8;</i> <a href="#localisation">4 Rue Saint-Jacques<br>49100 Angers</a>
                   </p>
                 </div>
               </div>
@@ -112,7 +113,7 @@ function assets($key) {
               <div class="bird-cell mdl-cell mdl-cell--4-col-desktop mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
               <div class="mdl-card mdl-cell mdl-cell--8-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone">
                 <div class="mdl-card__title">
-                  <h2 class="mdl-card__title-text">Pour qui? Pour quoi?</h2>
+                  <h2 class="mdl-card__title-text">Pourquoi consulter ?</h2>
                 </div>
                 <div class="mdl-card__supporting-text">
                   <p>
@@ -156,46 +157,56 @@ function assets($key) {
                   <h2 class="mdl-card__title-text">Contact</h2>
                 </div>
                 <div class="mdl-card__supporting-text">
-                  Pour prendre rendez-vous, vous pouvez utiliser le formulaire ou
+                  Pour prendre rendez-vous, vous pouvez utiliser ce formulaire ou
                   directement me contacter par courriel ou téléphone. À bientôt.
                   <br><br>
-                  <p class="mdl-typography--font-light">
-                    <i class="material-icons">&#xE0BE;</i> contact@vanessa-colas.diet
+                  <p class="mdl-typography--font-light contact">
+                    <i class="material-icons">&#xE0CD;</i> <a href="tel://+33756843555">07 82 02 75 40</a>
                   </p>
-                  <p class="mdl-typography--font-light">
-                    <i class="material-icons">&#xE0CD;</i> 07 56 84 35 55
+                  <p class="mdl-typography--font-light contact">
+                    <i class="material-icons">&#xE0BE;</i> <a href="mailto:contact@vanessa-colas.diet">contact@vanessa-colas.diet</a>
                   </p>
                 </div>
               </div>
               <div class="mdl-card mdl-cell mdl-cell--4-col-desktop mdl-cell--5-col-tablet mdl-cell--4-col-phone">
                 <div class="mdl-card__supporting-text">
                   <form action="#">
-                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                      <input class="mdl-textfield__input mdl-typography--font-light" type="text" id="mail-name">
-                      <label class="mdl-textfield__label mdl-typography--font-regular" for="mail-name">Mr/Mme/Mlle NOM Prénom</label>
+                    <div class="mdl-textfield mdl-js-textfield">
+                      <label class="mdl-textfield__label">Mr/Mme/Mlle Prénom NOM</label>
+                      <input class="mdl-textfield__input" name="person" type="text" required>
                     </div>
-                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                      <input class="mdl-textfield__input mdl-typography--font-light" type="text" id="mail-phone">
-                      <label class="mdl-textfield__label mdl-typography--font-regular" for="mail-phone">Téléphone</label>
+                    <div class="mdl-textfield mdl-js-textfield">
+                      <label class="mdl-textfield__label">Objet du message</label>
+                      <input class="mdl-textfield__input" name="subject" type="text">
                     </div>
-                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                      <input class="mdl-textfield__input mdl-typography--font-light" type="text" id="mail-phone">
-                      <label class="mdl-textfield__label mdl-typography--font-regular" for="mail-email">Adresse électronique</label>
+                    <div class="mdl-textfield mdl-js-textfield">
+                      <label class="mdl-textfield__label">Téléphone</label>
+                      <input class="mdl-textfield__input" name="phone" type="text" required>
                     </div>
-                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                      <textarea class="mdl-textfield__input mdl-typography--font-light" type="text" rows= "3" id="mail-address" ></textarea>
-                      <label class="mdl-textfield__label mdl-typography--font-regular" for="mail-address">Adresse postale</label>
+                    <div class="mdl-textfield mdl-js-textfield">
+                      <label class="mdl-textfield__label">Adresse électronique</label>
+                      <input class="mdl-textfield__input" name="email" type="text" required>
                     </div>
-                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                      <textarea class="mdl-textfield__input mdl-typography--font-light" type="text" rows= "6" id="mail-message" ></textarea>
-                      <label class="mdl-textfield__label mdl-typography--font-regular" for="mail-message">Message</label>
+                    <div class="mdl-textfield mdl-js-textfield">
+                      <label class="mdl-textfield__label">Adresse postale</label>
+                      <textarea class="mdl-textfield__input" name="address" rows= "3"></textarea>
+                    </div>
+                    <div class="mdl-textfield mdl-js-textfield">
+                      <label class="mdl-textfield__label">Message</label>
+                      <textarea class="mdl-textfield__input" name="message" rows= "6" required></textarea>
+                    </div>
+                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect">
+                      Envoyer
+                    </button>
+                    <div id="error">
+                      Erreur : Merci de vérifier les informations saisies.
+                      Si le problème persiste, vous pouvez réessayer plus
+                      tard ou me laisser un message téléphonique.
                     </div>
                   </form>
-                </div>
-                <div class="mdl-card__actions">
-                  <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect">
-                    Envoyer
-                  </button>
+                  <div id="sent">
+                    <p><strong>Envoyé !</strong><br/>Je reprendrai contact avec vous au plus vite. À bientôt.</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -210,13 +221,13 @@ function assets($key) {
                   <h2 class="mdl-card__title-text">Localisation</h2>
                 </div>
                 <div class="mdl-card__supporting-text">
-                  Je consulte à mon cabinet:<br>
-                  Esplanade Jean Moulin<br>
-                  49460 Montreuil-Juigné
+                  Je consulte à mon cabinet :<br>
+                  4 Rue Saint-Jacques<br>
+                  49100 Angers
                 </div>
               </div>
               <div class="mdl-cell mdl-cell--8-col-desktop mdl-cell--5-col-tablet mdl-cell--4-col-phone">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d952.0787073062646!2d-0.5722615860860777!3d47.53967191245065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48087bf6f4d8fb2d%3A0x27ed870044c3cbaa!2sRue+des+Cigognes%2C+49460+Cantenay-%C3%89pinard!5e0!3m2!1sfr!2sfr!4v1454523230642" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2696.8139182638697!2d-0.5705330485362423!3d47.47405550501534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480878ccf425241f%3A0x24b76c24836d749c!2sMaison+M%C3%A9dicale+Saint+Jacques!5e0!3m2!1sfr!2sfr!4v1465926606425" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
               </div>
             </div>
           </div>
@@ -234,6 +245,8 @@ function assets($key) {
                   <li>1ère consultation (1h): 40€</li>
                   <li>consultations de suivi (30min): 25€</li>
                 </ul>
+              </div>
+              <div class="mdl-cell mdl-cell--4-col">
                 <h5>Consultations en couple</h5>
                 <ul>
                   <li>1ère consultation (1h): 60€</li>
@@ -241,21 +254,12 @@ function assets($key) {
                 </ul>
               </div>
               <div class="mdl-cell mdl-cell--4-col">
-                <h5>Forfaits</h5>
-                <p>
-                  Blablabla blabla Blablabla blabla Blablabla blabla Blablabla blabla
-                  Blablabla blabla Blablabla blabla Blablabla blabla Blablabla blabla
-                  Blablabla blabla Blablabla blabla Blablabla blabla Blablabla blabla
-                  Blablabla blabla Blablabla blabla Blablabla blabla Blablabla blabla
-                </p>
-              </div>
-              <div class="mdl-cell mdl-cell--4-col">
                 <h5>Remboursement</h5>
                 <p>
                   Même sur prescription médicale, les consultations ne sont pas remboursées
                   par la Sécurité Sociale. Cependant de nombreuses mutuelles prennent en charge
                   une partie des consultations.
-                  <br>
+                  <br><br>
                   Renseignez-vous auprès de votre mutuelle.
                 </p>
               </div>

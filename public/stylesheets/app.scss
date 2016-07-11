@@ -38,8 +38,11 @@ main {
     max-width: 1024px;
     &.presentation {
       .photo {
-        background: url('/images/photo.jpg') center / cover;
-        min-height: 200px;
+        background: #fff;
+        padding: 10px;
+        img {
+          width: 100%;
+        }
       }
     }
     &.pourquoi {
@@ -51,22 +54,56 @@ main {
       }
     }
     &.contact {
-      .mdl-textfield {
-        display: block;
-      }
-      .mdl-textfield__input {
-        background-color: #eaeaea;
-        border-color: #616161;
-      }
-      .mdl-textfield__label {
-        color: #616161;
-      }
       .bread-cell {
         background: url('/images/bread.jpg') center / cover;
+      }
+      form {
+        .mdl-textfield {
+          display: block;
+        }
+        .mdl-textfield__input {
+          background-color: #eaeaea;
+          border-color: #616161;
+        }
+        .mdl-textfield__label {
+          color: #616161;
+        }
+      }
+      #sent {
+        display: none;
+        position: relative;
+        p {
+          bottom: 0;
+          position: absolute;
+        }
+      }
+      #error {
+        color: #d50000;
+        display: none;
       }
     }
     &.localisation .mdl-card__title {
       background: url('/images/map-marker.png') no-repeat center;
+    }
+    &.presentation, &.contact {
+      p.contact {
+        a {
+          color: #000;
+          text-decoration: none;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+        &.localisation {
+          i {
+            margin-top: 2px;
+            vertical-align: top;
+          }
+          a {
+            display: inline-block;
+          }
+        }
+      }
     }
   }
 }
