@@ -99,7 +99,7 @@ function assets($key) {
                     <i class="material-icons">&#xE0BE;</i> <a href="mailto:moi@vanessa-colas.diet">moi@vanessa-colas.diet</a>
                   </p>
                   <p class="mdl-typography--font-light contact localisation">
-                    <i class="material-icons">&#xE0C8;</i> <a href="#localisation">4 Rue Saint-Jacques<br>49100 Angers</a>
+                    <i class="material-icons">&#xE0C8;</i> <a href="#localisation">3 rue Chef de Ville<br>49100 Angers</a>
                   </p>
                   <p class="mdl-typography--font-light contact schedule">
                     <i class="material-icons">&#xE8B5;</i>
@@ -224,13 +224,13 @@ function assets($key) {
                   <h2 class="mdl-card__title-text">Localisation</h2>
                 </div>
                 <div class="mdl-card__supporting-text">
-                  Je consulte à mon cabinet :<br>
-                  4 Rue Saint-Jacques<br>
+                  Maison Médicale Saint Jacques<br>
+                  3 rue Chef de Ville<br>
                   49100 Angers
                 </div>
               </div>
               <div class="mdl-cell mdl-cell--8-col-desktop mdl-cell--5-col-tablet mdl-cell--4-col-phone">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2696.8139182638697!2d-0.5705330485362423!3d47.47405550501534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480878ccf425241f%3A0x24b76c24836d749c!2sMaison+M%C3%A9dicale+Saint+Jacques!5e0!3m2!1sfr!2sfr!4v1465926606425" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2696.8043215329785!2d-0.5706087488683194!3d47.47424250500308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480878cc29468d83%3A0x899dad9723a7a135!2s3+Rue+Chef+de+ville%2C+49100+Angers!5e0!3m2!1sfr!2sfr!4v1472505920294" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
               </div>
             </div>
           </div>
