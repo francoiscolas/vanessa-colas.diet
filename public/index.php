@@ -101,6 +101,13 @@ function assets($key) {
                   <p class="mdl-typography--font-light contact localisation">
                     <i class="material-icons">&#xE0C8;</i> <a href="#localisation">4 Rue Saint-Jacques<br>49100 Angers</a>
                   </p>
+                  <p class="mdl-typography--font-light contact schedule">
+                    <i class="material-icons">&#xE8B5;</i>
+                    <span>
+                      Mercredi - 9h00 à 19h00<br>
+                      Vendredi - 9h00 à 19h00<br>
+                    </span>
+                  </p>
                 </div>
               </div>
             </div>

@@ -94,12 +94,12 @@ main {
             text-decoration: underline;
           }
         }
-        &.localisation {
+        &.localisation, &.schedule {
           i {
             margin-top: 2px;
             vertical-align: top;
           }
-          a {
+          a, span {
             display: inline-block;
           }
         }
