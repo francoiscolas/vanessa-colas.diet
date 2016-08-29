@@ -48,7 +48,7 @@ function assets($key) {
             <div class="vd-title mdl-layout__header-row">
               <h1>
                 <b>Vanessa Colas</b><br>
-                Diététicienne-Nutritionniste D.E à Angers
+                Diététicienne-Nutritionniste à Angers
               </h1>
             </div>
             <div class="vd-nav mdl-layout__header-row">
@@ -75,15 +75,16 @@ function assets($key) {
                 </div>
                 <div class="mdl-card__supporting-text">
                   Je suis diététicienne diplômée depuis 2013. Je vous accueille dans mon cabinet
-                  à la Maison Médicale Saint Jacques.<br>
+                  à la maison médicale Saint Jacques.<br>
                   <br>
-                  Dôtée de plusieurs expériences professionnelles, j'exerce aussi au CHU d'Angers où
-                  j'accompagne essentiellement des patients souffrants d'obésité et ceux ayant eu une
-                  <a href="https://fr.wikipedia.org/wiki/Chirurgie_bariatrique">chirurgie bariatrique</a>
+                  Dôtée de plusieurs expériences professionnelles, j'ai exercé en milieu
+                  hospitalier au CHU d'Angers dans différents services. J'ai essentiellement
+                  accompagné des patients souffrants d'obésité et suivi les
+                  <a href="https://fr.wikipedia.org/wiki/Chirurgie_bariatrique">chirurgies bariatriques</a>
                   (anneau gastrique, by-pass gastrique, sleeve gastrectomie, duodenal switch).<br>
                   <br>
-                  Je vous soutiens, accompagne et vous guide dans l'application des mesures
-                  hygieno-diététiques pour que votre alimentation reste une source de plaisir
+                  Je vous soutien, accompagne et vous guide dans l'application des mesures
+                  hygienodiététiques pour que votre alimentation reste une source de plaisir
                   et vous apporte bien être.
                 </div>
                 <div class="mdl-card__actions">
@@ -123,6 +124,10 @@ function assets($key) {
                 </div>
                 <div class="mdl-card__supporting-text">
                   <p>
+                    Je ne prescris aucuns produits ou compléments alimentaires car une <b>alimentation variée</b> et
+                    <b>équilibrée</b> apporte tous les éléments indispensables à notre <b>bonne santé</b>.
+                  </p>
+                  <p>
                     Les consultations diététiques concernent tout le monde (les enfants, les adolescents, les adultes, les
                     femmes enceintes ou allaitantes, les sportifs, les personnes âgées...) car tout au long de la vie, nos
                     besoins nutritionnels changent et notre alimentation doit être adaptée.
@@ -130,14 +135,13 @@ function assets($key) {
                   <p>
                     Les raisons qui peuvent vous amener à consulter peuvent être diverses:
                     <ul>
-                      <li>Problème de poids (perte ou prise)</li>
+                      <li>Problèmes de poids (perte ou prise)</li>
                       <li>Pathologie (diabète, hypertension, hypercholestérolémie, cancer, pathologie digestive...)</li>
                       <li>Situation nouvelle (grossesse, allaitement, travail en horaires décalées, médication entraînant une perte ou prise de poids, sevrage tabagique, chirurgie bariatrique...)</li>
                       <li>Intolérance alimentaire (gluten, lactose...)</li>
                       <li>Travail sur votre comportement alimentaire (compulsions, boulimie, anorexie) ou phobie alimentaire</li>
                       <li>Alimentation adaptée avec traitement : corticothérapie, anticoagulants, insulines...</li>
                       <li>Rééquilibrage alimentaire</li>
-                      <li>...</li>
                     </ul>
                   </p>
                   <p>
