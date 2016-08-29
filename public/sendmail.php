@@ -1,6 +1,6 @@
 <?php
 $accepted = false;
-$to       = 'contact@vanessa-colas.diet';
+$to       = 'moi@vanessa-colas.diet';
 $person   = filter_input(INPUT_POST, 'person', FILTER_SANITIZE_STRING);
 $subject  = filter_input(INPUT_POST, 'subject', FILTER_SANITIZE_STRING);
 $phone    = filter_input(INPUT_POST, 'phone', FILTER_VALIDATE_REGEXP, ['options' => ['regexp' => '/^[0-9 +]+$/']]);

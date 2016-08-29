@@ -96,7 +96,7 @@ function assets($key) {
                     <i class="material-icons">&#xE0CD;</i> <a href="tel://+33756843555">07 82 02 75 40</a>
                   </p>
                   <p class="mdl-typography--font-light contact">
-                    <i class="material-icons">&#xE0BE;</i> <a href="mailto:contact@vanessa-colas.diet">contact@vanessa-colas.diet</a>
+                    <i class="material-icons">&#xE0BE;</i> <a href="mailto:moi@vanessa-colas.diet">moi@vanessa-colas.diet</a>
                   </p>
                   <p class="mdl-typography--font-light contact localisation">
                     <i class="material-icons">&#xE0C8;</i> <a href="#localisation">4 Rue Saint-Jacques<br>49100 Angers</a>
@@ -160,7 +160,7 @@ function assets($key) {
                     <i class="material-icons">&#xE0CD;</i> <a href="tel://+33756843555">07 82 02 75 40</a>
                   </p>
                   <p class="mdl-typography--font-light contact">
-                    <i class="material-icons">&#xE0BE;</i> <a href="mailto:contact@vanessa-colas.diet">contact@vanessa-colas.diet</a>
+                    <i class="material-icons">&#xE0BE;</i> <a href="mailto:moi@vanessa-colas.diet">moi@vanessa-colas.diet</a>
                   </p>
                 </div>
               </div>
