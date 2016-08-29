@@ -18,7 +18,12 @@ function assets($key) {
 <html>
   <head>
     <meta charset="utf-8"> 
-    <meta name="viewport" content="width=device-width; initial-scale=1.0; user-scalable=no">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; user-scalable=no"/>
+    <meta name="description" content="Je suis diététicienne-nutritionniste. Je vous accueille dans mon cabinet à la maison médicale Saint Jacques d'Angers."/>
+    <meta name="keywords" content="diététicienne,nutritionniste,angers,chu,perte de poids,maigrir,maigrir sans régime,grossir,équilibre"/>
+    <meta name="geo.region" content="FR-49"/>
+    <meta name="geo.placename" content="Angers"/>
+    <meta name="geo.position" content="47.474239;-0.568415"/>
     <title>Vanessa Colas - Diététicienne à Angers</title>
     <?php
     if (DEVMODE) {
