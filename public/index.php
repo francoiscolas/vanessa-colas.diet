@@ -280,6 +280,7 @@ function assets($key) {
         </section>
         <footer class="mdl-mini-footer">
           <div class="vd-wrapper">
+              Adeli : 499501252 - SIRET : 81949691000020<br>
               &copy; 2016 - Vanessa Colas - Tous droits réservés
           </div>
         </footer>
