@@ -82,13 +82,14 @@ function assets($key) {
                   Je suis diététicienne diplômée depuis 2013. Je vous accueille dans mon cabinet
                   à la maison médicale Saint Jacques.<br>
                   <br>
-                  Dôtée de plusieurs expériences professionnelles, j'ai exercé en milieu
-                  hospitalier au CHU d'Angers dans différents services. J'ai essentiellement
-                  accompagné des patients souffrants d'obésité et suivi les
-                  <a href="https://fr.wikipedia.org/wiki/Chirurgie_bariatrique">chirurgies bariatriques</a>
+                  En parallèle de mon activité libérale, j'exerce au CHU d'Angers où j'accompagne
+                  essentiellement des patients souffrants d'obésité et/ou qui entrent dans un programme de
+                  <a href="https://fr.wikipedia.org/wiki/Chirurgie_bariatrique">chirurgie bariatrique</a>
                   (anneau gastrique, by-pass gastrique, sleeve gastrectomie, duodenal switch).<br>
+                  J'ai exercé dans différents services du CHU où j'ai pu élargir mes compétences
+                  dans la prise en charge nutritionnelle.<br>
                   <br>
-                  Je vous soutien, accompagne et vous guide dans l'application des mesures
+                  Je vous soutiens, accompagne et vous guide dans l'application des mesures
                   hygienodiététiques pour que votre alimentation reste une source de plaisir
                   et vous apporte bien être.
                 </div>

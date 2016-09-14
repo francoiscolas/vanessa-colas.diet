@@ -8,6 +8,9 @@ html, body,
   font-weight: 300;
   line-height: 24px;
 }
+.mdl-card__supporting-text {
+  text-align: justify;
+}
 .vd-wrapper {
   max-width: 1024px;
   margin: 0 auto;
