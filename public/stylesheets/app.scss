@@ -108,6 +108,16 @@ main {
         }
       }
     }
+    &.tarifs {
+      strong.star {
+        color: rgb(33, 150, 243);
+        font-weight: bold;
+      }
+      p.note {
+        font-size: 75%;
+        line-height: 100%;
+      }
+    }
   }
 }
 footer {

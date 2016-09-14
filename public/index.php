@@ -255,15 +255,18 @@ function assets($key) {
               <div class="mdl-cell mdl-cell--4-col">
                 <h5>Consultations individuelles</h5>
                 <ul>
-                  <li>1ère consultation (1h): 40€</li>
-                  <li>consultations de suivi (30min): 25€</li>
+                  <li>1ère consultation (1h) : 40€<strong class="star">*</strong></li>
+                  <li>consultations de suivi (30min) : 25€<strong class="star">*</strong></li>
                 </ul>
+                <p class="note">
+                  <strong class="star">*</strong>30€ puis 20€ pour les étudiants et demandeurs d'emplois (sur présentation d'un justificatif).
+                </p>
               </div>
               <div class="mdl-cell mdl-cell--4-col">
                 <h5>Consultations en couple</h5>
                 <ul>
-                  <li>1ère consultation (1h): 60€</li>
-                  <li>consultations de suivi (30min): 40€</li>
+                  <li>1ère consultation (1h) : 60€</li>
+                  <li>consultations de suivi (30min) : 40€</li>
                 </ul>
               </div>
               <div class="mdl-cell mdl-cell--4-col">
