@@ -20,7 +20,7 @@ function assets($key) {
     <meta charset="utf-8"> 
     <meta name="viewport" content="width=device-width; initial-scale=1.0; user-scalable=no"/>
     <meta name="description" content="Je suis diététicienne-nutritionniste. Je vous accueille dans mon cabinet à la maison médicale Saint Jacques d'Angers."/>
-    <meta name="keywords" content="diététicienne,nutritionniste,angers,chu,perte de poids,maigrir,maigrir sans régime,grossir,équilibre"/>
+    <meta name="keywords" content="diététicienne,nutritionniste,angers,chu,perte de poids,maigrir,maigrir sans régime,grossir,équilibre,alimentation"/>
     <meta name="geo.region" content="FR-49"/>
     <meta name="geo.placename" content="Angers"/>
     <meta name="geo.position" content="47.474239;-0.568415"/>
