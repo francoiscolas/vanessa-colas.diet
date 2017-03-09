@@ -8,9 +8,6 @@ html, body,
   font-weight: 300;
   line-height: 24px;
 }
-.mdl-card__supporting-text {
-  text-align: justify;
-}
 .vd-wrapper {
   max-width: 1024px;
   margin: 0 auto;
@@ -22,8 +19,11 @@ header {
     padding: 0 40px;
     h1 {
       font-family: 'Gloria Hallelujah', cursive !important;
-      font-size: 36px;
+      font-size: 26px !important;
       width: 100%;
+      @media screen and (min-width: 760px) {
+        font-size: 36px !important;
+      }
     }
   }
   .vd-nav .mdl-navigation__link {

@@ -71,7 +71,7 @@ function assets($key) {
         <section class="presentation mdl-grid">
           <div class="mdl-cell mdl-cell--12-col">
             <div class="mdl-grid mdl-grid--no-spacing">
-              <div class="photo mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone">
+              <div class="photo mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--hide-phone">
                 <img src="/images/photo.jpg"/>
               </div>
               <div class="mdl-card mdl-cell mdl-cell--6-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
@@ -83,10 +83,10 @@ function assets($key) {
                   à la maison médicale Saint Jacques.<br>
                   <br>
                   En parallèle de mon activité libérale, j'exerce au CHU d'Angers où j'accompagne
-                  essentiellement des patients souffrants d'obésité et/ou qui entrent dans un programme de
+                  essentiellement des patients souffrant d'obésité et/ou qui entrent dans un programme de
                   <a href="https://fr.wikipedia.org/wiki/Chirurgie_bariatrique">chirurgie bariatrique</a>
                   (anneau gastrique, by-pass gastrique, sleeve gastrectomie, duodenal switch).<br>
-                  J'ai exercé dans différents services du CHU où j'ai pu élargir mes compétences
+                  J'ai exercé dans différent services du CHU où j'ai pu élargir mes compétences
                   dans la prise en charge nutritionnelle.<br>
                   <br>
                   Je vous soutiens, accompagne et vous guide dans l'application des mesures
@@ -111,8 +111,8 @@ function assets($key) {
                   <p class="mdl-typography--font-light contact schedule">
                     <i class="material-icons">&#xE8B5;</i>
                     <span>
-                      Mercredi - 9h00 à 19h00<br>
-                      Vendredi - 9h00 à 19h00<br>
+                      9h à 19h du lundi au vendredi<br>
+                      9h à 12h le samedi
                     </span>
                   </p>
                 </div>
@@ -130,7 +130,7 @@ function assets($key) {
                 </div>
                 <div class="mdl-card__supporting-text">
                   <p>
-                    Je ne prescris aucuns produits ou compléments alimentaires car une <b>alimentation variée</b> et
+                    Je ne prescris aucun produits ou compléments alimentaires car une <b>alimentation variée</b> et
                     <b>équilibrée</b> apporte tous les éléments indispensables à notre <b>bonne santé</b>.
                   </p>
                   <p>
@@ -259,7 +259,7 @@ function assets($key) {
                   <li>consultations de suivi (30min) : 25€<strong class="star">*</strong></li>
                 </ul>
                 <p class="note">
-                  <strong class="star">*</strong>30€ puis 20€ pour les étudiants et demandeurs d'emplois (sur présentation d'un justificatif).
+                  <strong class="star">*</strong>35€ puis 20€ pour les étudiants et demandeurs d'emplois (sur présentation d'un justificatif).
                 </p>
               </div>
               <div class="mdl-cell mdl-cell--4-col">
