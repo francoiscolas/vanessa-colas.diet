@@ -56,6 +56,33 @@ main {
         margin-top: -16px;
       }
     }
+    &.ateliers {
+      .workshop-cell {
+        background: url('/images/workshop.jpg') center / cover;
+      }
+      table#workshop-dates {
+        border: 1px solid black;
+        border-collapse: collapse;
+        margin: 10px 0;
+        td {
+          border: 1px solid black;
+          &.dates {
+            background: #cacaca;
+            font-weight: bold;
+            padding: 10px;
+            text-align: center;
+          }
+          &.details {
+            padding: 4px;
+            vertical-align: top;
+            strong {
+              font-weight: bold;
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
     &.contact {
       .bread-cell {
         background: url('/images/bread.jpg') center / cover;

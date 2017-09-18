@@ -160,6 +160,50 @@ function assets($key) {
             </div>
           </div>
         </section>
+        <a name="ateliers"></a>
+        <section class="ateliers mdl-grid">
+          <div class="mdl-cell mdl-cell--12-col">
+            <div class="mdl-grid mdl-grid--no-spacing">
+              <div class="mdl-card mdl-cell mdl-cell--8-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+                <div class="mdl-card__title">
+                  <h2 class="mdl-card__title-text">Ateliers</h2>
+                </div>
+                <div class="mdl-card__supporting-text">
+                  <p>
+                    J'organise des ateliers diététiques une fois par mois. Ils sont <strong>ouverts à tous</strong>, que vous ayez un suivi ou non.
+                    Les ateliers vous permettent d'approfondir un thème en particulier et d'échanger avec d'autres personnes.
+                    Ils ont lieu <strong>un samedi par mois</strong> de <strong>9h30 à 11h30</strong>.
+                  <table id="workshop-dates">
+                    <tr>
+                      <td class="dates">Samedi 16<br>septembre<br>2017
+                      <td class="details">
+                        <strong>Les bases de la diététique</strong><br>
+                        Nutriments, groupes d'aliments, fréquences de consommation, pyramide alimentaire, ...
+                    <tr>
+                      <td class="dates">Samedi 21<br>octobre<br>2017
+                      <td class="details">
+                        <strong>Savoir équilibrer ses repas</strong><br>
+                        À la maison, au restaurant, au travail, en cas d'invitation, ...
+                    <tr>
+                      <td class="dates">Samedi 18<br>novembre<br>2017
+                      <td class="details">
+                        <strong>Étiquetage alimentaire</strong><br>
+                        Savoir déchiffrer les étiquettes de vos produits alimentaires.
+                    <tr>
+                      <td class="dates">Samedi 16<br>décembre<br>2017
+                      <td class="details">
+                        <strong>Les bases de la diététique</strong><br>
+                        Nutriments, groupes d'aliments, fréquences de consommation, pyramide alimentaire, ...
+                  </table>
+                  <p>
+                    <a href="#contact">Inscrivez-vous</a> vite, le <u>nombre de place est limité</u>, le tarif est de <strong>20€/personne</strong> pour les deux heures.
+                  </p>
+                </div>
+              </div>
+              <div class="workshop-cell mdl-cell mdl-cell--4-col-desktop mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+            </div>
+          </div>
+        </section>
         <a name="contact"></a>
         <section class="contact mdl-grid">
           <div class="mdl-cell mdl-cell--12-col">
