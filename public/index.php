@@ -140,16 +140,16 @@ function assets($key) {
                   </p>
                   <p>
                     Les raisons qui peuvent vous amener à consulter peuvent être diverses:
-                    <ul>
-                      <li>Problèmes de poids (perte ou prise)</li>
-                      <li>Pathologie (diabète, hypertension, hypercholestérolémie, cancer, pathologie digestive...)</li>
-                      <li>Situation nouvelle (grossesse, allaitement, travail en horaires décalées, médication entraînant une perte ou prise de poids, sevrage tabagique, chirurgie bariatrique...)</li>
-                      <li>Intolérance alimentaire (gluten, lactose...)</li>
-                      <li>Travail sur votre comportement alimentaire (compulsions, boulimie, anorexie) ou phobie alimentaire</li>
-                      <li>Alimentation adaptée avec traitement : corticothérapie, anticoagulants, insulines...</li>
-                      <li>Rééquilibrage alimentaire</li>
-                    </ul>
                   </p>
+                  <ul>
+                    <li>Problèmes de poids (perte ou prise)</li>
+                    <li>Pathologie (diabète, hypertension, hypercholestérolémie, cancer, pathologie digestive...)</li>
+                    <li>Situation nouvelle (grossesse, allaitement, travail en horaires décalées, médication entraînant une perte ou prise de poids, sevrage tabagique, chirurgie bariatrique...)</li>
+                    <li>Intolérance alimentaire (gluten, lactose...)</li>
+                    <li>Travail sur votre comportement alimentaire (compulsions, boulimie, anorexie) ou phobie alimentaire</li>
+                    <li>Alimentation adaptée avec traitement : corticothérapie, anticoagulants, insulines...</li>
+                    <li>Rééquilibrage alimentaire</li>
+                  </ul>
                   <p>
                     Consulter une diététicienne vous aidera donc à modifier vos habitudes de vie, à adapter votre
                     alimentation à vos besoins et contribuer ainsi à améliorer votre santé. Nous établirons ensemble
