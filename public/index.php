@@ -100,7 +100,7 @@ function assets($key) {
               <div class="mdl-card mdl-color--green mdl-cell mdl-cell--3-col-desktop mdl-cell--hide-tablet mdl-cell--hide-phone">
                 <div class="mdl-card__supporting-text">
                   <p class="mdl-typography--font-light contact">
-                    <i class="material-icons">&#xE0CD;</i> <a href="tel://+33756843555">07 82 02 75 40</a>
+                    <i class="material-icons">&#xE0CD;</i> <a href="tel://+33782027540">07 82 02 75 40</a>
                   </p>
                   <p class="mdl-typography--font-light contact">
                     <i class="material-icons">&#xE0BE;</i> <a href="mailto:moi@vanessa-colas.diet">moi@vanessa-colas.diet</a>
