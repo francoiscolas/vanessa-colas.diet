@@ -82,8 +82,8 @@ function assets($key) {
                   Je suis diététicienne diplômée depuis 2013. Je vous accueille dans mon cabinet
                   à la maison médicale Saint Jacques.<br>
                   <br>
-                  En parallèle de mon activité libérale, j'exerce au CHU d'Angers où j'accompagne
-                  essentiellement des patients souffrant d'obésité et/ou qui entrent dans un programme de
+                  J'ai exercé au CHU d'Angers où j'accompagnai essentiellement des patients souffrant
+                  d'obésité et/ou qui entrent dans un programme de
                   <a href="https://fr.wikipedia.org/wiki/Chirurgie_bariatrique">chirurgie bariatrique</a>
                   (anneau gastrique, by-pass gastrique, sleeve gastrectomie, duodenal switch).<br>
                   J'ai exercé dans différent services du CHU où j'ai pu élargir mes compétences
@@ -130,8 +130,8 @@ function assets($key) {
                 </div>
                 <div class="mdl-card__supporting-text">
                   <p>
-                    Je ne prescris aucun produits ou compléments alimentaires car une <b>alimentation variée</b> et
-                    <b>équilibrée</b> apporte tous les éléments indispensables à notre <b>bonne santé</b>.
+                    Une <b>alimentation variée</b> et <b>équilibrée</b> apporte tous les éléments
+                    indispensables à notre <b>bonne santé</b>.
                   </p>
                   <p>
                     Les consultations diététiques concernent tout le monde (les enfants, les adolescents, les adultes, les
@@ -175,25 +175,29 @@ function assets($key) {
                     Ils ont lieu <strong>un samedi par mois</strong> de <strong>9h30 à 11h30</strong>.
                   <table id="workshop-dates">
                     <tr>
-                      <td class="dates">Samedi 16<br>septembre<br>2017
+                      <td class="dates">Samedi 20<br>janvier<br>2018
                       <td class="details">
                         <strong>Les bases de la diététique</strong><br>
                         Nutriments, groupes d'aliments, fréquences de consommation, pyramide alimentaire, ...
+                    </tr>
                     <tr>
-                      <td class="dates">Samedi 21<br>octobre<br>2017
-                      <td class="details">
-                        <strong>Savoir équilibrer ses repas</strong><br>
-                        À la maison, au restaurant, au travail, en cas d'invitation, ...
-                    <tr>
-                      <td class="dates">Samedi 18<br>novembre<br>2017
+                      <td class="dates">Samedi 17<br>février<br>2018
                       <td class="details">
                         <strong>Étiquetage alimentaire</strong><br>
                         Savoir déchiffrer les étiquettes de vos produits alimentaires.
+                    </tr>
                     <tr>
-                      <td class="dates">Samedi 16<br>décembre<br>2017
+                      <td class="dates">Samedi 12<br>mars<br>2018
                       <td class="details">
-                        <strong>Les bases de la diététique</strong><br>
-                        Nutriments, groupes d'aliments, fréquences de consommation, pyramide alimentaire, ...
+                        <strong>Améliorer son transit intestinal</strong><br>
+                        Constipations ? Diarrhées ? Comment améliorer votre transit intestinal en prenant soin de votre alimentation ?
+                    </tr>
+                    <!--tr>
+                      <td class="dates">Samedi XX<br>XX<br>2018
+                      <td class="details">
+                        <strong>Savoir équilibrer ses repas</strong><br>
+                        À la maison, au restaurant, au travail, en cas d'invitation, ...
+                    </tr-->
                   </table>
                   <p>
                     <a href="#contact">Inscrivez-vous</a> vite, le <u>nombre de place est limité</u>, le tarif est de <strong>20€/personne</strong> pour les deux heures.
@@ -218,7 +222,7 @@ function assets($key) {
                   directement me contacter par courriel ou téléphone. À bientôt.
                   <br><br>
                   <p class="mdl-typography--font-light contact">
-                    <i class="material-icons">&#xE0CD;</i> <a href="tel://+33756843555">07 82 02 75 40</a>
+                    <i class="material-icons">&#xE0CD;</i> <a href="tel://+33782027540">07 82 02 75 40</a>
                   </p>
                   <p class="mdl-typography--font-light contact">
                     <i class="material-icons">&#xE0BE;</i> <a href="mailto:moi@vanessa-colas.diet">moi@vanessa-colas.diet</a>
@@ -299,26 +303,54 @@ function assets($key) {
               <div class="mdl-cell mdl-cell--4-col">
                 <h5>Consultations individuelles</h5>
                 <ul>
-                  <li>1ère consultation (1h) : 40€<strong class="star">*</strong></li>
-                  <li>consultations de suivi (30min) : 25€<strong class="star">*</strong></li>
+                  <li>1ère consultation de bilan (1h) : 42€</li>
+                  <li>consultations de suivi (30min) : 26€</li>
                 </ul>
-                <p class="note">
-                  <strong class="star">*</strong>35€ puis 20€ pour les étudiants et demandeurs d'emplois (sur présentation d'un justificatif).
-                </p>
               </div>
               <div class="mdl-cell mdl-cell--4-col">
-                <h5>Consultations en couple</h5>
+                <h5>Forfait équilibre</h5>
                 <ul>
-                  <li>1ère consultation (1h) : 60€</li>
-                  <li>consultations de suivi (30min) : 40€</li>
+                  <li>1ère consultation de bilan (1h)</li>
+                  <li>5 consultations de suivi (30min)</li>
+                  <li>= 155€</li>
                 </ul>
               </div>
               <div class="mdl-cell mdl-cell--4-col">
+                <h5>Forfait suivis</h5>
+                <ul>
+                  <li>Uniquement pour les patients ayants eu un bilan.</li>
+                  <li>5 consultations de suivi (30min)</li>
+                  <li>= 117€</li>
+                </ul>
+              </div>
+              <div class="mdl-cell mdl-cell--4-col">
+                <h5>Consultations double</h5>
+                <ul>
+                  <li>1ère consultation de bilan (1h30) : 65€</li>
+                  <li>consultations de suivi (45min) : 42€</li>
+                </ul>
+              </div>
+              <div class="mdl-cell mdl-cell--4-col">
+                <h5>Forfait équilibre double</h5>
+                <ul>
+                  <li>1ère consultation de bilan (1h30)</li>
+                  <li>5 consultations de suivi (45min)</li>
+                  <li>= 248€</li>
+                </ul>
+              </div>
+              <div class="mdl-cell mdl-cell--4-col">
+                <h5>Forfait suivis double</h5>
+                <ul>
+                  <li>Uniquement pour les patients ayants eu un bilan.</li>
+                  <li>5 consultations de suivi (45min)</li>
+                  <li>= 189€</li>
+                </ul>
+              </div>
+              <div class="mdl-cell mdl-cell--8-col">
                 <h5>Remboursement</h5>
                 <p>
-                  Même sur prescription médicale, les consultations ne sont pas remboursées
-                  par la Sécurité Sociale. Cependant de nombreuses mutuelles prennent en charge
-                  une partie des consultations.
+                  Même sur prescription médicale, les consultations ne sont pas remboursées par la Sécurité Sociale. Vous pouvez cependant vous renseigner
+                  auprès de votre mutuelle qui peut être susceptible de rembourser une partie ou l'intégralité de vos consultations.
                   <br><br>
                   Renseignez-vous auprès de votre mutuelle.
                 </p>
