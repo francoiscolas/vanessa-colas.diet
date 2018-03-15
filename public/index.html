@@ -1,19 +1,3 @@
-<?php
-define('APP_DIR'    , realpath(__DIR__.'/..'));
-define('CONFIG_DIR' , APP_DIR.'/config');
-define('PUBLIC_DIR' , APP_DIR.'/public');
-define('ASSETS_FILE', CONFIG_DIR.'/assets.yml');
-define('DEVMODE'    , file_exists(CONFIG_DIR.'/devmode'));
-
-function assets($key) {
-  $assets = yaml_parse_file(ASSETS_FILE);
-  return array_map(function ($files) {
-    return array_map(function ($file) {
-      return str_replace(PUBLIC_DIR, '', APP_DIR.'/'.$file);
-    }, $files);
-  }, $assets[$key]);
-}
-?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -25,25 +9,8 @@ function assets($key) {
     <meta name="geo.placename" content="Angers"/>
     <meta name="geo.position" content="47.474239;-0.568415"/>
     <title>Vanessa Colas - Diététicienne à Angers</title>
-    <?php
-    if (DEVMODE) {
-      foreach (assets('stylesheets') as $name => $files) {
-        for ($i = 0; $i < count($files); $i++) {
-          echo '<link rel="stylesheet" href="'.$files[$i].'"/>'.PHP_EOL;
-        }
-      }
-      foreach (assets('javascripts') as $name => $files) {
-        for ($i = 0; $i < count($files); $i++) {
-          echo '<script src="'.$files[$i].'"></script>'.PHP_EOL;
-        }
-      }
-    } else {
-      ?>
-      <link rel="stylesheet" href="app.css"/>
-      <script src="app.js"></script>
-      <?php
-    }
-    ?>
+    <link rel="stylesheet" href="/app.css"/>
+    <script src="/app.js"></script>
   </head>
   <body>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">

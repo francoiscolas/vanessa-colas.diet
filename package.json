@@ -1,0 +1,14 @@
+{
+  "name": "vanessa-colas.diet",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francoiscolas/vanessa-colas.diet.git"
+  },
+  "scripts": {
+    "assets": "node scripts/assets"
+  },
+  "devDependencies": {
+    "minifier": "^0.8.1",
+    "node-sass": "^4.7.2"
+  }
+}

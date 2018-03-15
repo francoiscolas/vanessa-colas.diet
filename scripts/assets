@@ -1,0 +1,24 @@
+#!/usr/bin/env node
+
+var MINIFIER = require('minifier');
+var SASS     = require('node-sass');
+var FS       = require('fs');
+
+MINIFIER.minify([
+  'src/javascripts/jquery-3.0.0.js',
+  'src/javascripts/material-design-lite-1.1.3.js',
+  'src/javascripts/app.js',
+], {
+  output: 'public/app.js'
+});
+
+FS.writeFileSync('src/stylesheets/app.css',
+  SASS.renderSync({file: 'src/stylesheets/app.scss'}).css
+);
+MINIFIER.minify([
+  'src/stylesheets/material-design-lite-blue-pink-1.1.3.css',
+  'src/stylesheets/fonts.css',
+  'src/stylesheets/app.css',
+], {
+  output: 'public/app.css'
+});
